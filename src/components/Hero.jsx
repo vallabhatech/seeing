@@ -51,13 +51,11 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
             className="flex-1 text-white max-w-lg"
           >
-            <h2 className="text-purple-500 text-2xl font-semibold mb-2">
-              Hello Ji!
-            </h2>
+            
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
               Hi, I'm{' '}
               <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
-                Ayush Sharma
+                Harivallabha Sai Surishetty
               </span>
             </h1>
             <TypeAnimation
@@ -74,7 +72,7 @@ const Hero = () => {
               className="text-2xl md:text-2xl lg:text-3xl text-gray-300 mb-6"
             />
             <p className="text-gray-400 mb-8 max-w-lg">
-              I Write Code, I Build Things, I Solve Problems and I show people that I Love To Code(I DO).
+              I Design Ideas, I Craft Solutions, I Break Limits and I prove that I Live To Create (I DO).
             </p>
             <div className="flex gap-4">
               <motion.a
@@ -146,7 +144,7 @@ const Hero = () => {
               
               {/* Profile image */}
               <motion.img
-                src="/profile-comp.png"
+                src="/profile-comp.jpg"
                 alt="Profile"
                 className="relative z-10 rounded-full w-full h-full object-cover transition-all duration-300 group-hover:shadow-2xl group-hover:shadow-purple-500/50"
                 whileHover={{ rotate: [0, -5, 5, 0] }}

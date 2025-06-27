@@ -29,7 +29,7 @@ const Footer = () => {
               className="text-3xl font-bold bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 
                        bg-[200%_auto] bg-clip-text text-transparent"
             >
-              Ayush Sharma
+            Harivallabha Sai Surishetty
             </motion.h3>
             <p className="text-gray-400 text-sm">
               Crafting Digital Experiences with Passion

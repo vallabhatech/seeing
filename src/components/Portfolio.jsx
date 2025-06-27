@@ -4,34 +4,25 @@ import { HiOutlineExternalLink, HiEye } from 'react-icons/hi';
 import { FiGithub } from 'react-icons/fi';
 import { Particles } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
-import react_portfolio from "../assets/react-portfolio.png"
-import pathgenie from "../assets/pathgenie.png"
+import caresync from "../assets/CareSync.png"
+/*import pathgenie from "../assets/pathgenie.png"
 import finwise from "../assets/finwise.png"
 import portdev from "../assets/portdev.png"
 import intellica from "../assets/intellica.png"
-import effisense from "../assets/effisense.png"
+import effisense from "../assets/effisense.png" */
 
 const projects = [
     {
-      img: effisense,
-      title: "Effisense",
-      description: "Experience the future of productivity with AI-powered task scheduling, smart prioritization, and intelligent workload balancing.",
-      technologies: ["React", "Google API", "GROQ", "Appwrite", "TailwindCSS", "Recharts"],
-      links: {
-        site: "https://effisense.ayush-sharma.in/",
-      },
-    },
-    {
-      img: finwise,
-      title: "Finwise",
-      description: "AI Powered Financial Advisor for personalized financial recommendations.",
+      img: caresync,
+      title: "CareSync ",
+      description: "A smart, modular web app for medicine tracking, symptom checking, and clinic discovery — making healthcare simple and accessible.",
       technologies: ["React", "Gemini", "GROQ", "Appwrite", "TailwindCSS", "Grow"],
       links: {
-        site: "https://finwise.ayush-sharma.in/",
-        github:"https://github.com/glucon-d/finwise",
+        site: "https://care-sync-iota.vercel.app/",
+        github:"https://github.com/vallabhatech/CareSync",
       },
     },
-    {
+   /* {
       img: pathgenie,
       title: "Pathgenie",
       description: "AI powered career guidance platform for personalized career recommendations.",
@@ -70,7 +61,7 @@ const projects = [
         site: "https://cyberboyayush.in/",
         github: "https://github.com/cyberboyayush/React-Portfolio",
       },
-    },
+    },*/
   ]
 
 const ProjectButton = ({ href, icon, label, primary = true }) => (
@@ -400,7 +391,7 @@ const Portfolio = () => {
           className="mt-12 sm:mt-16 text-center"
         >
           <a 
-            href="https://github.com/cyberboyayush" 
+            href="https://github.com/vallabhatech?tab=repositories" 
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 sm:px-6 sm:py-3 rounded-full 

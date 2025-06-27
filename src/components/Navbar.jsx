@@ -61,7 +61,7 @@ const Navbar = () => {
                 >
                     <box-icon name='code-alt' color='#ffffff'></box-icon>
                     <span className="ml-2 text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-purple-600">
-                        CyberBoyAyush
+                        Harivallabha Sai Surishetty
                     </span>
                     <motion.div
                         className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg opacity-0 group-hover:opacity-30 blur transition duration-500"

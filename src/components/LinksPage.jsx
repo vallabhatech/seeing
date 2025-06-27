@@ -445,7 +445,7 @@ const LinksPage = () => {
                 }}
               />
               <motion.img
-                src="/profile-comp.png"
+                src="/profile-comp.jpg"
                 alt="Profile"
                 className="w-36 h-36 sm:w-44 sm:h-44 rounded-full border-4 border-purple-500/30
                          relative z-10 bg-[#0f0f0f] object-cover"
@@ -489,7 +489,7 @@ const LinksPage = () => {
               initial="hidden"
               animate="visible"
             >
-              {"Ayush".split("").map((letter, index) => (
+              {"Harivallabha".split("").map((letter, index) => (
                 <motion.span
                   key={`first-${index}`}
                   variants={letterAnimation}
@@ -506,7 +506,7 @@ const LinksPage = () => {
               >
                 {" "}
               </motion.span>
-              {"Sharma".split("").map((letter, index) => (
+              {"Sai".split("").map((letter, index) => (
                 <motion.span
                   key={`last-${index}`}
                   variants={letterAnimation}
@@ -567,7 +567,7 @@ const LinksPage = () => {
               label="LinkedIn"
             />
             <IconButton
-              href="https://auth.geeksforgeeks.org/user/vallahbatech"
+              href="https://auth.geeksforgeeks.org/user/vallabhatech"
               icon={SiGeeksforgeeks}
               color="text-emerald-400/90"
               label="GFG"
@@ -592,11 +592,6 @@ const LinksPage = () => {
               href="https://github.com/vallabhtech?tab=repositories"
               label="GitHub Repositories"
               icon={() => <span>📝</span>}
-            />
-            <CustomButton
-              href="https://portdevv.vercel.app"
-              label="Checkout Portdev"
-              icon={() => <span>💼</span>}
             />
             <CustomButton
               href="https://linkedin.com/in/vallabhatech"

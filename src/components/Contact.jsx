@@ -255,9 +255,7 @@ const Contact = () => {
                 About Me
               </h3>
               <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
-                Feel free to reach out for opportunities, collaborations, or
-                just a tech chat! I'm always excited to explore new ideas and build
-                amazing things together. Let's create something incredible!
+               Always open to new opportunities, collaborations, or meaningful conversations in tech. Let’s connect and build something impactful.
               </p>
             </div>
 
@@ -322,7 +320,7 @@ const Contact = () => {
               whileInView="show"
             >
               <StatsCard number="20+" label="Projects Completed" icon={<FiSend />} />
-              <StatsCard number="5+" label="Years Experience" icon={<FiUser />} />
+              <StatsCard number="3+" label="Years Experience" icon={<FiUser />} />
             </motion.div>
           </motion.div>
 

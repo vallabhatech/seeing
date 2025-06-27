@@ -56,8 +56,8 @@ const GithubStat = ({ icon, value, color }) => (
 );
 
 const CodingStats = () => {
-  const leetcodeUsername = "cyberboyayush";
-  const githubUsername = "cyberboyayush";
+  const leetcodeUsername = "hari577";
+  const githubUsername = "vallabhatech";
   const [githubStats, setGithubStats] = useState({
     repos: "...",
     commits: "...",
